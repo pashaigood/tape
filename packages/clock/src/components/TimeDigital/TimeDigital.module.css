@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.location {
+  font-size: 1.4em;
+  line-height: 1.214285714em;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: .035714286em;
+
+  color: var(--font-color-accent);
+  white-space: pre;
+}
+
+.time {
+  display: flex;
+  height: 96px;
+  justify-content: center;
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+  font-size: 8em;
+  /*line-height: 9.6em;*/
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: .00375em;
+
+  color: var(--font-color-primary);
+  padding-top: 8px;
+}
+
+.period_container {
+  display: flex;
+  align-items: center;
+}
+
+.period {
+  font-size: 1.8em;
+  line-height: 1.222222222em;
+  /* identical to box height */
+
+  letter-spacing: .035714278em;
+
+  color: var(--font-color-accent);
+
+  transform: rotate(-90deg);
+  padding-top: 20px;
+}

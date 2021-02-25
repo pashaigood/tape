@@ -1,0 +1,18 @@
+@import "~typeface-lato";
+
+.App {
+  --background-color: #fff;
+
+  --font-size: 1.4em;
+  --font-color-primary: #101112;
+  --font-color-accent: #A1B0CA;
+
+  width: 414px;
+  height: 896px;
+  overflow: hidden;
+  background: black;
+  font-size: 10px;
+
+  font-family: Lato, monospace;
+  color: var(--font-color-primary);
+}

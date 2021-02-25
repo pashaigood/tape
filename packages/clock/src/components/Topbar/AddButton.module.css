@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(3.63deg, #FAA361 -75.45%, #FF97B3 97.35%);
+  box-shadow: 0 6px 8px rgba(54, 69, 100, 0.19676);
+}
